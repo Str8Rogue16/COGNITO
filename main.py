@@ -57,8 +57,8 @@ voice_cog: VoiceAlerts = None
 market_impact_cog: MarketImpact = None
 
 # Channel IDs
-ALERT_CHANNEL_ID: int = int(os.getenv("ALERT_CHANNEL_ID", "0"))
-VOICE_CHANNEL_ID: int = int(os.getenv("VOICE_CHANNEL_ID", "859570733486571554"))
+ALERT_CHANNEL_ID: int = int(os.getenv("ALERT_CHANNEL_ID", " ")) # Alert Channel Id goes here
+VOICE_CHANNEL_ID: int = int(os.getenv("VOICE_CHANNEL_ID", " ")) # Voice Channel Id goes here
 
 
 # ── Graceful Shutdown ─────────────────────────────────────────────────────────
